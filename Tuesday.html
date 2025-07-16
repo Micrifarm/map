@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c4670b0a2d6498548f57b5126da81a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c4670b0a2d6498548f57b5126da81a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c4670b0a2d6498548f57b5126da81a2 = L.map(
+                "map_6c4670b0a2d6498548f57b5126da81a2",
+                {
+                    center: [55.6761, 12.5683],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a2227daceaf5e0bd9b860e77a295d27e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var marker_60dff8daaf1a1f77ed1bcba3118a284e = L.marker(
+                [55.6793731, 12.5084365],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_6ab5be15cf9d60dc02bce96d592d96b2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "1", "textColor": "white"}
+            )
+            marker_60dff8daaf1a1f77ed1bcba3118a284e.setIcon(beautify_icon_6ab5be15cf9d60dc02bce96d592d96b2);
+        
+    
+            marker_60dff8daaf1a1f77ed1bcba3118a284e.bindTooltip(
+                `<div>
+                     1. MIT LILLE KØKKEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_535cf28a2e9cd3a77344c01722ae434f = L.marker(
+                [55.6788525, 12.5150751],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_80e3bc37eb273bf1d2f701858ba3a12b = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "2", "textColor": "white"}
+            )
+            marker_535cf28a2e9cd3a77344c01722ae434f.setIcon(beautify_icon_80e3bc37eb273bf1d2f701858ba3a12b);
+        
+    
+            marker_535cf28a2e9cd3a77344c01722ae434f.bindTooltip(
+                `<div>
+                     2. FREDERIKSBERG DINER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21ed9caedc0f611748c6e7d9bbfb78da = L.marker(
+                [55.664918, 12.529719],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_4aeb7fa1179a91b190924a0b6c4dac00 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "3", "textColor": "white"}
+            )
+            marker_21ed9caedc0f611748c6e7d9bbfb78da.setIcon(beautify_icon_4aeb7fa1179a91b190924a0b6c4dac00);
+        
+    
+            marker_21ed9caedc0f611748c6e7d9bbfb78da.bindTooltip(
+                `<div>
+                     3. MADKLUBBEN CARLSBERG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_038f38510bf14d81fc74a799abb3f58a = L.marker(
+                [55.66580374718561, 12.53672816825233],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_dc48180adf865efa44723e55b668ca32 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "4", "textColor": "white"}
+            )
+            marker_038f38510bf14d81fc74a799abb3f58a.setIcon(beautify_icon_dc48180adf865efa44723e55b668ca32);
+        
+    
+            marker_038f38510bf14d81fc74a799abb3f58a.bindTooltip(
+                `<div>
+                     4. AAMANNS GENBO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02a6c8226042f31b54cf0f27905b5c59 = L.marker(
+                [55.67802803971983, 12.534424538741225],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_323f788a1433f6df4d143d24e7891bfd = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "5", "textColor": "white"}
+            )
+            marker_02a6c8226042f31b54cf0f27905b5c59.setIcon(beautify_icon_323f788a1433f6df4d143d24e7891bfd);
+        
+    
+            marker_02a6c8226042f31b54cf0f27905b5c59.bindTooltip(
+                `<div>
+                     5. FREDERIKSBERG ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d126fb563d03501d0e23a0985d09ce1 = L.marker(
+                [55.68105727980233, 12.53155342525549],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_e545298c6f848438e8917b3dec79acd4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "6", "textColor": "white"}
+            )
+            marker_1d126fb563d03501d0e23a0985d09ce1.setIcon(beautify_icon_e545298c6f848438e8917b3dec79acd4);
+        
+    
+            marker_1d126fb563d03501d0e23a0985d09ce1.bindTooltip(
+                `<div>
+                     6. HANZO FREDERIKSBERG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_225573d3a5b4b3a886a03e643aba43b5 = L.marker(
+                [55.6833447, 12.5660831],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_fd7c1c1e30a15a1ad0e30745a5a4b58a = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "7", "textColor": "white"}
+            )
+            marker_225573d3a5b4b3a886a03e643aba43b5.setIcon(beautify_icon_fd7c1c1e30a15a1ad0e30745a5a4b58a);
+        
+    
+            marker_225573d3a5b4b3a886a03e643aba43b5.bindTooltip(
+                `<div>
+                     7. HØST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_438bb49f4c8d1ee412fd0ad7c83d3dec = L.marker(
+                [55.6844695, 12.566041],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_c1002a3c68d0fa8192141a793044b775 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "8", "textColor": "white"}
+            )
+            marker_438bb49f4c8d1ee412fd0ad7c83d3dec.setIcon(beautify_icon_c1002a3c68d0fa8192141a793044b775);
+        
+    
+            marker_438bb49f4c8d1ee412fd0ad7c83d3dec.bindTooltip(
+                `<div>
+                     8. PINTXOS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bab1a7afef616157f8e8ce262b305a3d = L.marker(
+                [55.684712, 12.56608],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_946db83537b9857e3afdda683bf5587c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "9", "textColor": "white"}
+            )
+            marker_bab1a7afef616157f8e8ce262b305a3d.setIcon(beautify_icon_946db83537b9857e3afdda683bf5587c);
+        
+    
+            marker_bab1a7afef616157f8e8ce262b305a3d.bindTooltip(
+                `<div>
+                     9. LA ROCCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1317e7ce724a87c008ec113db0775768 = L.marker(
+                [55.6878841, 12.562934],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_b2ea970d37aa3a372cda79c4db087a00 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "10", "textColor": "white"}
+            )
+            marker_1317e7ce724a87c008ec113db0775768.setIcon(beautify_icon_b2ea970d37aa3a372cda79c4db087a00);
+        
+    
+            marker_1317e7ce724a87c008ec113db0775768.bindTooltip(
+                `<div>
+                     10. HANZO NØRREBRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81f0f75d1b733fe8aa0942f7b6413674 = L.marker(
+                [55.688256293899585, 12.563414404585162],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_b0f3846b17cc68299e432651ada7e0ca = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "11", "textColor": "white"}
+            )
+            marker_81f0f75d1b733fe8aa0942f7b6413674.setIcon(beautify_icon_b0f3846b17cc68299e432651ada7e0ca);
+        
+    
+            marker_81f0f75d1b733fe8aa0942f7b6413674.bindTooltip(
+                `<div>
+                     11. DOSSERINGEN ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b960084430b6c0a45ae48e13edb39a82 = L.marker(
+                [55.69016291322022, 12.575282351709166],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_8e40fb863608e59285c2a543569a65f1 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "12", "textColor": "white"}
+            )
+            marker_b960084430b6c0a45ae48e13edb39a82.setIcon(beautify_icon_8e40fb863608e59285c2a543569a65f1);
+        
+    
+            marker_b960084430b6c0a45ae48e13edb39a82.bindTooltip(
+                `<div>
+                     12. AAMANNS DELI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd0b5efe9bf6b819723c718722592883 = L.marker(
+                [55.6901452, 12.5753232],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_5bc38a1277b5609e988117c258e1ca96 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "13", "textColor": "white"}
+            )
+            marker_cd0b5efe9bf6b819723c718722592883.setIcon(beautify_icon_5bc38a1277b5609e988117c258e1ca96);
+        
+    
+            marker_cd0b5efe9bf6b819723c718722592883.bindTooltip(
+                `<div>
+                     13. Ø12 ØF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2ccad15141d02b540f30e8cb0ae13b2 = L.marker(
+                [55.69982986313113, 12.578015098402853],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_310d90e863e3c00682327b9deb019c47 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "14", "textColor": "white"}
+            )
+            marker_c2ccad15141d02b540f30e8cb0ae13b2.setIcon(beautify_icon_310d90e863e3c00682327b9deb019c47);
+        
+    
+            marker_c2ccad15141d02b540f30e8cb0ae13b2.bindTooltip(
+                `<div>
+                     14. TRIANGLEN ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8d7ea2c5c7275e1da5eab72d7361697 = L.marker(
+                [55.7041183, 12.5771287],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_ac85aeb62efefb09c09e4c6073f3926c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "15", "textColor": "white"}
+            )
+            marker_d8d7ea2c5c7275e1da5eab72d7361697.setIcon(beautify_icon_ac85aeb62efefb09c09e4c6073f3926c);
+        
+    
+            marker_d8d7ea2c5c7275e1da5eab72d7361697.bindTooltip(
+                `<div>
+                     15. HANZO ØSTERBRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29642c371153ac6d2b4fa727f6a5bf31 = L.marker(
+                [55.7035237, 12.5849958],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_9b3c9f3d554ee938c21242a03db6f04c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "16", "textColor": "white"}
+            )
+            marker_29642c371153ac6d2b4fa727f6a5bf31.setIcon(beautify_icon_9b3c9f3d554ee938c21242a03db6f04c);
+        
+    
+            marker_29642c371153ac6d2b4fa727f6a5bf31.bindTooltip(
+                `<div>
+                     16. LUPA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ed89f78baddc9e6136b9da077c28cad = L.marker(
+                [55.7060496, 12.5886612],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_f05dc67f89b6296c85627f474c74f9a9 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "17", "textColor": "white"}
+            )
+            marker_7ed89f78baddc9e6136b9da077c28cad.setIcon(beautify_icon_f05dc67f89b6296c85627f474c74f9a9);
+        
+    
+            marker_7ed89f78baddc9e6136b9da077c28cad.bindTooltip(
+                `<div>
+                     17. CHARLOTTEHAVEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a32e1068f6644c4339f4b2dc3ea68a0 = L.marker(
+                [55.709832904498754, 12.59495994397694],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_5287389ec80e1f5aaaff33030f2b15f3 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "18", "textColor": "white"}
+            )
+            marker_1a32e1068f6644c4339f4b2dc3ea68a0.setIcon(beautify_icon_5287389ec80e1f5aaaff33030f2b15f3);
+        
+    
+            marker_1a32e1068f6644c4339f4b2dc3ea68a0.bindTooltip(
+                `<div>
+                     18. STUBKAJ ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f556fecc9b575040a3f96387955522c = L.marker(
+                [55.71214300727128, 12.594872018163123],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_2b52437e77b47e6422ad6e476fa56a80 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "19", "textColor": "white"}
+            )
+            marker_8f556fecc9b575040a3f96387955522c.setIcon(beautify_icon_2b52437e77b47e6422ad6e476fa56a80);
+        
+    
+            marker_8f556fecc9b575040a3f96387955522c.bindTooltip(
+                `<div>
+                     19. ORIENTKAJ ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9b9bb6912f24a10d1af16adf2454d2 = L.marker(
+                [55.707063995997, 12.597673659762675],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_969365b077933a32391f32b686ae1df8 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "20", "textColor": "white"}
+            )
+            marker_aa9b9bb6912f24a10d1af16adf2454d2.setIcon(beautify_icon_969365b077933a32391f32b686ae1df8);
+        
+    
+            marker_aa9b9bb6912f24a10d1af16adf2454d2.bindTooltip(
+                `<div>
+                     20. GÖTEBORG PLADS ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7e2a4236ff6b940c074479f0715f84a = L.marker(
+                [55.7136599, 12.5769215],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_6688bbc525acf8cff233b2d5d1506764 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "21", "textColor": "white"}
+            )
+            marker_b7e2a4236ff6b940c074479f0715f84a.setIcon(beautify_icon_6688bbc525acf8cff233b2d5d1506764);
+        
+    
+            marker_b7e2a4236ff6b940c074479f0715f84a.bindTooltip(
+                `<div>
+                     21. LE COQ EN PATE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cba1a61063339182f1e136fd1d16d1ba = L.marker(
+                [55.726780531698985, 12.58090861335302],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_e23b051a4def64ce1acf19e8f3aa5a44 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "22", "textColor": "white"}
+            )
+            marker_cba1a61063339182f1e136fd1d16d1ba.setIcon(beautify_icon_e23b051a4def64ce1acf19e8f3aa5a44);
+        
+    
+            marker_cba1a61063339182f1e136fd1d16d1ba.bindTooltip(
+                `<div>
+                     22. GASTROMANI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61d4c87f3e6bcf0fa740c27d71c927a4 = L.marker(
+                [55.730228168652474, 12.576343298403758],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_62539082c1eb8f2b8228bd5fc40be1e4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "23", "textColor": "white"}
+            )
+            marker_61d4c87f3e6bcf0fa740c27d71c927a4.setIcon(beautify_icon_62539082c1eb8f2b8228bd5fc40be1e4);
+        
+    
+            marker_61d4c87f3e6bcf0fa740c27d71c927a4.bindTooltip(
+                `<div>
+                     23. HELLERUP ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb3fe4e9984f509cd4509ee51a5e3371 = L.marker(
+                [55.7375563, 12.5748805],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_a436f3db925fda344f45c4e62c4f0448 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "24", "textColor": "white"}
+            )
+            marker_fb3fe4e9984f509cd4509ee51a5e3371.setIcon(beautify_icon_a436f3db925fda344f45c4e62c4f0448);
+        
+    
+            marker_fb3fe4e9984f509cd4509ee51a5e3371.bindTooltip(
+                `<div>
+                     24. ROSE ROSE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b3f961951d44139a6ba6cce7dc8af97 = L.marker(
+                [55.763182, 12.600587],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_1fec264b5a64069d4f66a582d4c5912f = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "25", "textColor": "white"}
+            )
+            marker_9b3f961951d44139a6ba6cce7dc8af97.setIcon(beautify_icon_1fec264b5a64069d4f66a582d4c5912f);
+        
+    
+            marker_9b3f961951d44139a6ba6cce7dc8af97.bindTooltip(
+                `<div>
+                     25. Sejlklubbernes Spisehus Aps
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f5ab3b65c052d6986c6fc05f8980b30 = L.marker(
+                [55.7736197, 12.5067343],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_97acbed110bd0f54f88a9faf62449428 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "26", "textColor": "white"}
+            )
+            marker_8f5ab3b65c052d6986c6fc05f8980b30.setIcon(beautify_icon_97acbed110bd0f54f88a9faf62449428);
+        
+    
+            marker_8f5ab3b65c052d6986c6fc05f8980b30.bindTooltip(
+                `<div>
+                     26. MADKLUBBEN LYNGBY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa8c7452c2e6c0a6a3aa72fde878e5e4 = L.marker(
+                [55.7715578, 12.5028868],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_9ec267181ca35318eecb26dec7d09fb2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "27", "textColor": "white"}
+            )
+            marker_aa8c7452c2e6c0a6a3aa72fde878e5e4.setIcon(beautify_icon_9ec267181ca35318eecb26dec7d09fb2);
+        
+    
+            marker_aa8c7452c2e6c0a6a3aa72fde878e5e4.bindTooltip(
+                `<div>
+                     27. HANZO LYNGBY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d36c51171c1e84d308b0893a4ccfcd84 = L.marker(
+                [55.692877, 12.5515264],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_abeeb138a63c5907735032155371ef05 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "28", "textColor": "white"}
+            )
+            marker_d36c51171c1e84d308b0893a4ccfcd84.setIcon(beautify_icon_abeeb138a63c5907735032155371ef05);
+        
+    
+            marker_d36c51171c1e84d308b0893a4ccfcd84.bindTooltip(
+                `<div>
+                     28. OYSTERS OG GRILL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7362013699b898ea705c75f3903f79fa = L.marker(
+                [55.677072, 12.5659829],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_6cf6081baf1da0cc299d34d8782ed285 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "29", "textColor": "white"}
+            )
+            marker_7362013699b898ea705c75f3903f79fa.setIcon(beautify_icon_6cf6081baf1da0cc299d34d8782ed285);
+        
+    
+            marker_7362013699b898ea705c75f3903f79fa.bindTooltip(
+                `<div>
+                     29. Ø12 HC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fe42b848c5e6847602737b5cc3e4295 = L.marker(
+                [55.67481035054652, 12.567140445532056],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_a31c3231afa2ec7d2ee2c6cc920c610d = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "30", "textColor": "white"}
+            )
+            marker_5fe42b848c5e6847602737b5cc3e4295.setIcon(beautify_icon_a31c3231afa2ec7d2ee2c6cc920c610d);
+        
+    
+            marker_5fe42b848c5e6847602737b5cc3e4295.bindTooltip(
+                `<div>
+                     30. FEED BISTRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b0efd49a993c77ebba04c1a37438cd6 = L.marker(
+                [55.677736258565815, 12.566356425621743],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_b0487a99b03a1b5efc040a40e12be7a4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "31", "textColor": "white"}
+            )
+            marker_5b0efd49a993c77ebba04c1a37438cd6.setIcon(beautify_icon_b0487a99b03a1b5efc040a40e12be7a4);
+        
+    
+            marker_5b0efd49a993c77ebba04c1a37438cd6.bindTooltip(
+                `<div>
+                     31. AMBASSADOR - INDIAN DINING
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b81a67bd745b1a2c32c9590c11647352 = L.marker(
+                [55.67844518362381, 12.5662420576607],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_63b82dc976b630d5cf35bbd7671b0e96 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "32", "textColor": "white"}
+            )
+            marker_b81a67bd745b1a2c32c9590c11647352.setIcon(beautify_icon_63b82dc976b630d5cf35bbd7671b0e96);
+        
+    
+            marker_b81a67bd745b1a2c32c9590c11647352.bindTooltip(
+                `<div>
+                     32. VAKST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e380c4f761012fdc28728ac0cae77b2 = L.marker(
+                [55.677747, 12.567347],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_dbe6a567f3022c8933d96e50e3742513 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "33", "textColor": "white"}
+            )
+            marker_8e380c4f761012fdc28728ac0cae77b2.setIcon(beautify_icon_dbe6a567f3022c8933d96e50e3742513);
+        
+    
+            marker_8e380c4f761012fdc28728ac0cae77b2.bindTooltip(
+                `<div>
+                     33. DINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2703876e00543b8f059d6fa2e81bee6a = L.marker(
+                [55.678964163695795, 12.569378896123851],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_855a6824e6cab9599af45e0cbf1cbb38 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "34", "textColor": "white"}
+            )
+            marker_2703876e00543b8f059d6fa2e81bee6a.setIcon(beautify_icon_855a6824e6cab9599af45e0cbf1cbb38);
+        
+    
+            marker_2703876e00543b8f059d6fa2e81bee6a.bindTooltip(
+                `<div>
+                     34. ATLASBAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ece2797ad3f89865160dd4e10b5f22a = L.marker(
+                [55.680663, 12.56927],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_1f820ef34e8ea1775da55aa99add7f25 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "35", "textColor": "white"}
+            )
+            marker_0ece2797ad3f89865160dd4e10b5f22a.setIcon(beautify_icon_1f820ef34e8ea1775da55aa99add7f25);
+        
+    
+            marker_0ece2797ad3f89865160dd4e10b5f22a.bindTooltip(
+                `<div>
+                     35. Bruun & Hjejle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac844e0290e0dd846cd8ec9c3d0fbbb7 = L.marker(
+                [55.6802168, 12.5758267],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_7c9245b6c64369dceec24f74507bfc9b = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "36", "textColor": "white"}
+            )
+            marker_ac844e0290e0dd846cd8ec9c3d0fbbb7.setIcon(beautify_icon_7c9245b6c64369dceec24f74507bfc9b);
+        
+    
+            marker_ac844e0290e0dd846cd8ec9c3d0fbbb7.bindTooltip(
+                `<div>
+                     36. AAMANNS 1921
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1114896e0d2de424314fff3c36474e2 = L.marker(
+                [55.677401, 12.575802],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_a550bca1b9bf8397e0aad7f0d9e72774 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "37", "textColor": "white"}
+            )
+            marker_e1114896e0d2de424314fff3c36474e2.setIcon(beautify_icon_a550bca1b9bf8397e0aad7f0d9e72774);
+        
+    
+            marker_e1114896e0d2de424314fff3c36474e2.bindTooltip(
+                `<div>
+                     37. CAFE SØSTER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c3a7ff00999191e98e26f2db52d11c5 = L.marker(
+                [55.67862772809758, 12.57939331702036],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_aae4e4a7c3237c1446208c375ab5e509 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "38", "textColor": "white"}
+            )
+            marker_2c3a7ff00999191e98e26f2db52d11c5.setIcon(beautify_icon_aae4e4a7c3237c1446208c375ab5e509);
+        
+    
+            marker_2c3a7ff00999191e98e26f2db52d11c5.bindTooltip(
+                `<div>
+                     38. EUROPA1989
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4afe0815965bc36c18871c427afc90d2 = L.marker(
+                [55.67952217854757, 12.58064925457172],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_3e031738f58c22f1513128768d008576 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "39", "textColor": "white"}
+            )
+            marker_4afe0815965bc36c18871c427afc90d2.setIcon(beautify_icon_3e031738f58c22f1513128768d008576);
+        
+    
+            marker_4afe0815965bc36c18871c427afc90d2.bindTooltip(
+                `<div>
+                     39. ILLUM Ø52 ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe7a785ea11ca479b5e4b30ce222844d = L.marker(
+                [55.679135832158785, 12.579834551088782],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_40f5bd597ec0537579400c1b27b95959 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "40", "textColor": "white"}
+            )
+            marker_fe7a785ea11ca479b5e4b30ce222844d.setIcon(beautify_icon_40f5bd597ec0537579400c1b27b95959);
+        
+    
+            marker_fe7a785ea11ca479b5e4b30ce222844d.bindTooltip(
+                `<div>
+                     40. ILLUM ROOFTOP ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94b5249a7dd0d213d4232b67cf398ae7 = L.marker(
+                [55.6779845, 12.5794905],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_825942bf428ee0f81fb41eab0e7aa752 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "41", "textColor": "white"}
+            )
+            marker_94b5249a7dd0d213d4232b67cf398ae7.setIcon(beautify_icon_825942bf428ee0f81fb41eab0e7aa752);
+        
+    
+            marker_94b5249a7dd0d213d4232b67cf398ae7.bindTooltip(
+                `<div>
+                     41. MATRIKEL 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b826d0d50a82813e23487961a3375303 = L.marker(
+                [55.66538690517049, 12.621973183060057],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_a2b7a697ef3621f67b476ac39defb4c9 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "42", "textColor": "white"}
+            )
+            marker_b826d0d50a82813e23487961a3375303.setIcon(beautify_icon_a2b7a697ef3621f67b476ac39defb4c9);
+        
+    
+            marker_b826d0d50a82813e23487961a3375303.bindTooltip(
+                `<div>
+                     42. STRANDLODSVEJ ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f26e2a8e5c323bd21484c7da3dbcbafc = L.marker(
+                [55.69178988169178, 12.611939599178172],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_a47289893e6554278c49a820a84d8f00 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "43", "textColor": "white"}
+            )
+            marker_f26e2a8e5c323bd21484c7da3dbcbafc.setIcon(beautify_icon_a47289893e6554278c49a820a84d8f00);
+        
+    
+            marker_f26e2a8e5c323bd21484c7da3dbcbafc.bindTooltip(
+                `<div>
+                     43. AAMANNS KOKKEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db6634a98ac53865df850d59abcd1627 = L.marker(
+                [55.673697, 12.589508],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_8e7d83115f5660cceb8b8057f2647fa9 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "44", "textColor": "white"}
+            )
+            marker_db6634a98ac53865df850d59abcd1627.setIcon(beautify_icon_8e7d83115f5660cceb8b8057f2647fa9);
+        
+    
+            marker_db6634a98ac53865df850d59abcd1627.bindTooltip(
+                `<div>
+                     44. DONDA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eedff9f6ea735b6406179c442ffa799e = L.marker(
+                [55.675551, 12.593183],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_9201e4160f252faf2f955fc718b9e7f2 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "45", "textColor": "white"}
+            )
+            marker_eedff9f6ea735b6406179c442ffa799e.setIcon(beautify_icon_9201e4160f252faf2f955fc718b9e7f2);
+        
+    
+            marker_eedff9f6ea735b6406179c442ffa799e.bindTooltip(
+                `<div>
+                     45. KANALEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae57046c5e96d595516b3e3789034871 = L.marker(
+                [55.673534691117595, 12.591895902289831],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_9a73218ee47871b950a156855b22b73e = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "46", "textColor": "white"}
+            )
+            marker_ae57046c5e96d595516b3e3789034871.setIcon(beautify_icon_9a73218ee47871b950a156855b22b73e);
+        
+    
+            marker_ae57046c5e96d595516b3e3789034871.bindTooltip(
+                `<div>
+                     46. CHRISTIANSHAVN ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60229e9f6ded6d313994d8afde72cd1f = L.marker(
+                [55.6780596, 12.5891584],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_388ce177f4b62d24b743381db541e92e = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "47", "textColor": "white"}
+            )
+            marker_60229e9f6ded6d313994d8afde72cd1f.setIcon(beautify_icon_388ce177f4b62d24b743381db541e92e);
+        
+    
+            marker_60229e9f6ded6d313994d8afde72cd1f.bindTooltip(
+                `<div>
+                     47. FUEGO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2c8923db45a671d7cfd0e79fc34afeb = L.marker(
+                [55.679712410502894, 12.59482859435952],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_12a332242045b59ba6b567d88f517fca = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "48", "textColor": "white"}
+            )
+            marker_a2c8923db45a671d7cfd0e79fc34afeb.setIcon(beautify_icon_12a332242045b59ba6b567d88f517fca);
+        
+    
+            marker_a2c8923db45a671d7cfd0e79fc34afeb.bindTooltip(
+                `<div>
+                     48. AAMANNS REPLIK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7af1c1403364ecefa92b462d3803a94 = L.marker(
+                [55.68389669020915, 12.590044520159891],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_4ffdf600ae991f4d863fcc0a10b7aa9a = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "49", "textColor": "white"}
+            )
+            marker_a7af1c1403364ecefa92b462d3803a94.setIcon(beautify_icon_4ffdf600ae991f4d863fcc0a10b7aa9a);
+        
+    
+            marker_a7af1c1403364ecefa92b462d3803a94.bindTooltip(
+                `<div>
+                     49. BREDGADE ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a7345d726af64cdc8fbe0850cce60d8 = L.marker(
+                [55.68908385746829, 12.58978721956707],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_804fe0cc6cd86d818af6a5e2d2a3972c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "50", "textColor": "white"}
+            )
+            marker_2a7345d726af64cdc8fbe0850cce60d8.setIcon(beautify_icon_804fe0cc6cd86d818af6a5e2d2a3972c);
+        
+    
+            marker_2a7345d726af64cdc8fbe0850cce60d8.bindTooltip(
+                `<div>
+                     50. STORE KONGENSGADE ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aac3f5e2682d3e0ffad5639b877ad7a6 = L.marker(
+                [55.681804, 12.582272],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_f362fabd51a46415a10a32754b8a95c4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "51", "textColor": "white"}
+            )
+            marker_aac3f5e2682d3e0ffad5639b877ad7a6.setIcon(beautify_icon_f362fabd51a46415a10a32754b8a95c4);
+        
+    
+            marker_aac3f5e2682d3e0ffad5639b877ad7a6.bindTooltip(
+                `<div>
+                     51. RESTAURANT LEVI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_135d0a6fd17ce571b34a2b88590accf7 = L.marker(
+                [55.68072144349031, 12.582942452400774],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_6d444dc71fb15d8d0b8dde66697a45ff = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "52", "textColor": "white"}
+            )
+            marker_135d0a6fd17ce571b34a2b88590accf7.setIcon(beautify_icon_6d444dc71fb15d8d0b8dde66697a45ff);
+        
+    
+            marker_135d0a6fd17ce571b34a2b88590accf7.bindTooltip(
+                `<div>
+                     52. L'ALSACE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28005c2d0a83238e239f9f6a016849f6 = L.marker(
+                [55.680065, 12.580971],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_e27e565e336e6d9cf9263c9da71cda78 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "53", "textColor": "white"}
+            )
+            marker_28005c2d0a83238e239f9f6a016849f6.setIcon(beautify_icon_e27e565e336e6d9cf9263c9da71cda78);
+        
+    
+            marker_28005c2d0a83238e239f9f6a016849f6.bindTooltip(
+                `<div>
+                     53. THE MARKET ASIAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0db4e4974c37e830b37eb5344fd597d6 = L.marker(
+                [55.6796777, 12.5839839],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_cfc043c66b66c6cfe0f340009092ab7d = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "54", "textColor": "white"}
+            )
+            marker_0db4e4974c37e830b37eb5344fd597d6.setIcon(beautify_icon_cfc043c66b66c6cfe0f340009092ab7d);
+        
+    
+            marker_0db4e4974c37e830b37eb5344fd597d6.bindTooltip(
+                `<div>
+                     54. LIAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_679c618af457305d2604dad28449e51d = L.marker(
+                [55.67632631340239, 12.574382354455093],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_88848abcf9c651bbd825337cc3aa5712 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "55", "textColor": "white"}
+            )
+            marker_679c618af457305d2604dad28449e51d.setIcon(beautify_icon_88848abcf9c651bbd825337cc3aa5712);
+        
+    
+            marker_679c618af457305d2604dad28449e51d.bindTooltip(
+                `<div>
+                     55. VANDKUNSTEN ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07cf1f3931a7a31354d9fdd9c8123212 = L.marker(
+                [55.6757979, 12.5716388],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_0fa5aed3ec8c476ded145cb06951b9d0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "56", "textColor": "white"}
+            )
+            marker_07cf1f3931a7a31354d9fdd9c8123212.setIcon(beautify_icon_0fa5aed3ec8c476ded145cb06951b9d0);
+        
+    
+            marker_07cf1f3931a7a31354d9fdd9c8123212.bindTooltip(
+                `<div>
+                     56. OSCAR BAR OG CAFE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0efdfd417294d17f5384dada0b1adf04 = L.marker(
+                [55.67048720189956, 12.56883590053555],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_c23d2b93633ccd7978b54c8406e054c5 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "57", "textColor": "white"}
+            )
+            marker_0efdfd417294d17f5384dada0b1adf04.setIcon(beautify_icon_c23d2b93633ccd7978b54c8406e054c5);
+        
+    
+            marker_0efdfd417294d17f5384dada0b1adf04.bindTooltip(
+                `<div>
+                     57. POSTBYEN ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42096de5daeb9a773efdddfe918bacab = L.marker(
+                [55.6678896, 12.5592591],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_2e5f51caa96a35ded5d72cc9d85654d0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "58", "textColor": "white"}
+            )
+            marker_42096de5daeb9a773efdddfe918bacab.setIcon(beautify_icon_2e5f51caa96a35ded5d72cc9d85654d0);
+        
+    
+            marker_42096de5daeb9a773efdddfe918bacab.bindTooltip(
+                `<div>
+                     58. FISKEBAREN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8e8bebf7a4de79eb024c055b6ea0d38 = L.marker(
+                [55.66937053817657, 12.558713054123434],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_78e8384dcfdd6006b51d70256391bc36 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "59", "textColor": "white"}
+            )
+            marker_a8e8bebf7a4de79eb024c055b6ea0d38.setIcon(beautify_icon_78e8384dcfdd6006b51d70256391bc36);
+        
+    
+            marker_a8e8bebf7a4de79eb024c055b6ea0d38.bindTooltip(
+                `<div>
+                     59. SUPERBON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70e1e7a5a91e348992e8b69968aaa706 = L.marker(
+                [55.6728508, 12.5606831],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_1bde7233049c8e7b56d01202aa75db75 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "60", "textColor": "white"}
+            )
+            marker_70e1e7a5a91e348992e8b69968aaa706.setIcon(beautify_icon_1bde7233049c8e7b56d01202aa75db75);
+        
+    
+            marker_70e1e7a5a91e348992e8b69968aaa706.bindTooltip(
+                `<div>
+                     60. LUN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_544bc93b112ddf049077621e9bc8c81c = L.marker(
+                [55.672531092643155, 12.55583038762253],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_e3b0af25d06fd56dae6f35ba1d49fe5c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "61", "textColor": "white"}
+            )
+            marker_544bc93b112ddf049077621e9bc8c81c.setIcon(beautify_icon_e3b0af25d06fd56dae6f35ba1d49fe5c);
+        
+    
+            marker_544bc93b112ddf049077621e9bc8c81c.bindTooltip(
+                `<div>
+                     61. DELPHINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af1281da03887e53c41b05e5d2a214b6 = L.marker(
+                [55.6698042847694, 12.55466160024972],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_5f251c5572ef350f799a829b5c78a2fe = new L.BeautifyIcon.icon(
+                {"backgroundColor": "green", "borderColor": "green", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "62", "textColor": "white"}
+            )
+            marker_af1281da03887e53c41b05e5d2a214b6.setIcon(beautify_icon_5f251c5572ef350f799a829b5c78a2fe);
+        
+    
+            marker_af1281da03887e53c41b05e5d2a214b6.bindTooltip(
+                `<div>
+                     62. ISTEDGADE ORIGINAL COFFEE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33083f2b7fc903275af1e981777bc3a3 = L.marker(
+                [55.6669471, 12.5498982],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_7558fd5871e9cc7b71ebdc8ee328fcb3 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "63", "textColor": "white"}
+            )
+            marker_33083f2b7fc903275af1e981777bc3a3.setIcon(beautify_icon_7558fd5871e9cc7b71ebdc8ee328fcb3);
+        
+    
+            marker_33083f2b7fc903275af1e981777bc3a3.bindTooltip(
+                `<div>
+                     63. DONDA DELI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b87d524b0aac32e8d43d51be0994556d = L.marker(
+                [55.65541315124413, 12.560758127094545],
+                {}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+    
+            var beautify_icon_b80f8213556f158d76fb6ec6de059bb4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "blue", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": "64", "textColor": "white"}
+            )
+            marker_b87d524b0aac32e8d43d51be0994556d.setIcon(beautify_icon_b80f8213556f158d76fb6ec6de059bb4);
+        
+    
+            marker_b87d524b0aac32e8d43d51be0994556d.bindTooltip(
+                `<div>
+                     64. KLASE TRATTORIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_129e0aa4c92d8b2daef07999ca23939a = L.polyline(
+                [[55.6793731, 12.5084365], [55.6788525, 12.5150751], [55.664918, 12.529719], [55.66580374718561, 12.53672816825233], [55.67802803971983, 12.534424538741225], [55.68105727980233, 12.53155342525549], [55.6833447, 12.5660831], [55.6844695, 12.566041], [55.684712, 12.56608], [55.6878841, 12.562934], [55.688256293899585, 12.563414404585162], [55.69016291322022, 12.575282351709166], [55.6901452, 12.5753232], [55.69982986313113, 12.578015098402853], [55.7041183, 12.5771287], [55.7035237, 12.5849958], [55.7060496, 12.5886612], [55.709832904498754, 12.59495994397694], [55.71214300727128, 12.594872018163123], [55.707063995997, 12.597673659762675], [55.7136599, 12.5769215], [55.726780531698985, 12.58090861335302], [55.730228168652474, 12.576343298403758], [55.7375563, 12.5748805], [55.763182, 12.600587], [55.7736197, 12.5067343], [55.7715578, 12.5028868], [55.692877, 12.5515264], [55.677072, 12.5659829], [55.67481035054652, 12.567140445532056], [55.677736258565815, 12.566356425621743], [55.67844518362381, 12.5662420576607], [55.677747, 12.567347], [55.678964163695795, 12.569378896123851], [55.680663, 12.56927], [55.6802168, 12.5758267], [55.677401, 12.575802], [55.67862772809758, 12.57939331702036], [55.67952217854757, 12.58064925457172], [55.679135832158785, 12.579834551088782], [55.6779845, 12.5794905], [55.66538690517049, 12.621973183060057], [55.69178988169178, 12.611939599178172], [55.673697, 12.589508], [55.675551, 12.593183], [55.673534691117595, 12.591895902289831], [55.6780596, 12.5891584], [55.679712410502894, 12.59482859435952], [55.68389669020915, 12.590044520159891], [55.68908385746829, 12.58978721956707], [55.681804, 12.582272], [55.68072144349031, 12.582942452400774], [55.680065, 12.580971], [55.6796777, 12.5839839], [55.67632631340239, 12.574382354455093], [55.6757979, 12.5716388], [55.67048720189956, 12.56883590053555], [55.6678896, 12.5592591], [55.66937053817657, 12.558713054123434], [55.6728508, 12.5606831], [55.672531092643155, 12.55583038762253], [55.6698042847694, 12.55466160024972], [55.6669471, 12.5498982], [55.65541315124413, 12.560758127094545]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6c4670b0a2d6498548f57b5126da81a2);
+        
+</script>
+</html>
